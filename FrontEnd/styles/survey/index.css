@@ -1,0 +1,53 @@
+main {
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  max-height: 100px;
+  width: 150px;
+  max-width: 150px;
+  align-self: center;
+}
+
+.options {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 200px;
+}
+label {
+  display: grid;
+  justify-content: center;
+  height: 100%;
+  grid-template-rows: 1fr 50px;
+}
+
+input {
+  align-self: start;
+}
+
+button {
+  height: 3rem;
+  width: 13rem;
+  border: none;
+  background-color: green;
+  color: white;
+  border-radius: 4rem;
+  margin-top: 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+}

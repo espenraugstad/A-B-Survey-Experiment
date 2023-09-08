@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>QuickSurvey</title>
+    <link rel="stylesheet" href="./styles/index.css" />
+  </head>
+  <!-- Google tag (gtag.js) -->
+  <script
+    async
+    src="https://www.googletagmanager.com/gtag/js?id=G-HKTDT518TB"
+  ></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
+
+    gtag("config", "G-HKTDT518TB");
+  </script>
+
+  <body>
+    <main>
+      <h1>Welcome</h1>
+
+      <p>
+        Thank you for participating in this very short survey. It is estimated
+        to take 1 minute. Click the button below to get started.
+      </p>
+      <button id="gotoSurvey">Take the survey</button>
+    </main>
+    <script src="./scripts/index.js"></script>
+  </body>
+</html>

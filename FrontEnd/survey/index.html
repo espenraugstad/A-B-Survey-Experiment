@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>QuickSurvey</title>
+    <link rel="stylesheet" href="../styles/survey/index.css" />
+  </head>
+  <!-- Google tag (gtag.js) -->
+  <script
+    async
+    src="https://www.googletagmanager.com/gtag/js?id=G-HKTDT518TB"
+  ></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
+
+    gtag("config", "G-HKTDT518TB");
+  </script>
+
+  <body>
+    <main>
+      <h1>Survey</h1>
+      <p>
+        If you had to choose between a cola beverage from one of these
+        companies, which would you choose?
+      </p>
+      <form id="surveyForm">
+        <div class="options">
+          <label>
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/c/ce/Coca-Cola_logo.svg"
+              alt=""
+            />
+
+            <input id="coke" type="radio" name="cola" value="coke" />
+          </label>
+
+          <label>
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/0/0f/Pepsi_logo_2014.svg"
+              alt=""
+            />
+
+            <input id="pepsi" type="radio" name="cola" value="pepsi" />
+          </label>
+        </div>
+        <button id="submit" type="submit">Submit your answer</button>
+      </form>
+    </main>
+    <script src="../scripts/survey/index.js"></script>
+  </body>
+</html>
