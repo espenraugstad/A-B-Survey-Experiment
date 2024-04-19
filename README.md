@@ -12,4 +12,4 @@ This contains one file which is was deployed on AWS Lambda. It receives informat
 The results from the Dynamo DB was downloaded as a csv-file. The information in this was processed using Python in two versions. One version creates a more managable csv-file, while the other version plots the results in a grouped bar chart.
 
 ## Further reading
-For more information, take a look at the project description at Decade 21 (link will be available soon).
+For more information, take a look at the project description at Decade 21 here [https://decade21.com/project/a-b-survey-experiment/](https://decade21.com/project/a-b-survey-experiment/)
